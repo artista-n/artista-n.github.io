@@ -95,9 +95,9 @@ body {
   }
 }
 /*スマートフォン向けレイアウト*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
   .header, .footer{
-    width: 100%;
+    width: 80%;
   }
   .main, .right-navi, .main-content,{
     width: 100%;
@@ -106,12 +106,12 @@ body {
     text-align: center;
   }
   .header p{
-    font-size: 20px;
-  }
-  .header h1{
     font-size: 30px;
   }
+  .header h1{
+    font-size: 40px;
+  }
   .header h4{
-    font-size: 20px;
+    font-size: 30px;
   }
 }
