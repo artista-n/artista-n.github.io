@@ -5,6 +5,14 @@ body {
 *{
   box-sizing: border-box;
 }
+.midashi {
+ height: 50px;
+  text-align: right;
+  line-height: 50px;
+  font-family: serif;
+  font-size: 40px;
+  color: blue;
+} 
 .header {
   height: 600px;
   position: relative;
@@ -104,6 +112,9 @@ body {
   }
   .footer{
     text-align: center;
+  }
+  .midashi {
+    font-size: 30px;
   }
   .header p{
     font-size: 30px;
