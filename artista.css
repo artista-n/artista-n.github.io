@@ -96,10 +96,10 @@ body {
 /*タブレット向けレイアウト*/
 @media screen and (max-width: 1000px){
   .header, .footer{
-    width: 70%;
+    width: 100%;
   }
   .main, .right-navi, .main-content{
-    width: 83.7%;
+    width: auto;
   }
 }
 /*スマートフォン向けレイアウト*/
@@ -108,19 +108,19 @@ body {
     width: 100%;
   }
   .main, .right-navi, .main-content,{
-    width: 100%;
+    width: auto;
   }
   .footer{
     text-align: center;
   }
   .midashi {
-    font-size: 30px;
+    font-size: 5vw;
   }
   .header p{
-    font-size: 30px;
+    font-size: 5vw;
   }
   .header h1{
-    font-size: 40px;
+    font-size: 10vw;
   }
   .header h4{
     font-size: 30px;
