@@ -5,7 +5,7 @@ body {
 *{
   box-sizing: border-box;
 }
-.midashi{
+.midashi h4{
   height: 50px;
   text-aligin: right;
   line-height: 50px;
@@ -113,7 +113,7 @@ body {
   .footer{
     text-align: center;
   }
-  .midashi{
+  .midashi h4{
     font-size: 5vw;
   }
   .header p{
