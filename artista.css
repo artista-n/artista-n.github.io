@@ -5,11 +5,19 @@ body {
 *{
   box-sizing: border-box;
 }
+.midashi{
+  height: 50px;
+  text-aligin: right;
+  line-height: 50px;
+  font-family: serif;
+  font-size: 40px;
+  color: blue;
+}
 .header {
   height: 600px;
   position: relative;
   margin: 0, 0, 5px, 0;
-  background: url("artista.img/2010.wa.jpg");
+  background: url("artista.img/201.wa.jpg");
   background-size: cover;
   background-position: 50% 30%;
   border: 3px solid blue;
@@ -88,30 +96,30 @@ body {
 /*タブレット向けレイアウト*/
 @media screen and (max-width: 1000px){
   .header, .footer{
-    width: 70%;
+    width: 100%;
   }
   .main, .right-navi, .main-content{
-    width: 83.7%;
+    width: auto;
   }
 }
 /*スマートフォン向けレイアウト*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
   .header, .footer{
-    width: 80%;
+    width: 100%;
   }
   .main, .right-navi, .main-content,{
-    width: 100%;
+    width: auto;
   }
   .footer{
     text-align: center;
   }
+  .midashi{
+    font-size: 5vw;
+  }
   .header p{
-    font-size: 30px;
+    font-size: 5vw;
   }
   .header h1{
-    font-size: 40px;
-  }
-  .header h4{
-    font-size: 30px;
+    font-size: 10vw;
   }
 }
